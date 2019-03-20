@@ -1,0 +1,13 @@
+---
+- hosts: 127.0.0.1
+  tasks:
+  - name: Check mandatory variables
+    fail:
+      msg: >
+        Aborting, requires {{ item }} to be defined.
+    when: item not in vars
+    with_items:
+      - steam_user_password
+  roles:
+    - role: steamcmd
+      tags: ['role_steamcmd']

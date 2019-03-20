@@ -1,0 +1,23 @@
+---
+- name: Setup users and groups
+  user:
+    name: "{{ steam_user }}"
+    state: present
+    password: "{{ steam_user_password }}"
+  become: yes
+
+- name: Install steamcmd package
+  apt:
+    name: steamcmd
+    state: latest
+    update_cache: yes
+  become: yes
+
+- name: Link steamcmd executable
+  file:
+    src: /usr/games/steamcmd
+    dest: steamcmd
+    owner: "{{ steam_user }}"
+    group: "{{ steam_user}}"
+    state: link
+  # become: yes
