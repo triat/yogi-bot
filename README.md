@@ -26,6 +26,7 @@ Basically, in a mid/long term, the goal is to have most of the interesting featu
 
 ## Communication Schema
 
+```
              +---------+
              |   Web   |
              |interface|
@@ -38,6 +39,8 @@ Basically, in a mid/long term, the goal is to have most of the interesting featu
 +---------+  +---------+  +---------+
 | CS SERV |  | CS SERV |  | CS SERV |
 +---------+  +---------+  +---------+
+
+```
 
 ## Installation
 - Script to install the web interface on a specific server
