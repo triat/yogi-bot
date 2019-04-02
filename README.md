@@ -1,5 +1,5 @@
 # Yogi the bot {•̃_•̃}
-Yogi the bot is meant to be the tool that allows you to organize your CS:GO tournament in a LAN and kill the myth of not having a CS:GO LAN without issues. 
+Yogi the bot is meant to be the tool that allows you to organize your CS:GO tournament in a LAN and kill the myth of not having a CS:GO LAN without issues.
 
 It is based on what was done with https://github.com/deStrO/eBot-CSGO/ but after facing several critical issues with this tool, I decided to redo something similar with the knowledge of what I don't want to see happening during a LAN.
 
@@ -46,7 +46,7 @@ Basically, in a mid/long term, the goal is to have most of the interesting featu
 - Script to install the web interface on a specific server
 - Script to install one or more game server on a list of servers
 
-# Expected improved from other tools
+# Expected improvement from other tools
 - Better and more consistent documentation on how to install and use the bot
 - Less fragile to network issues
 - Better management of conflict in match scheduling and configuration
