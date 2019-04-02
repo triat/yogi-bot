@@ -1,0 +1,15 @@
+[MASTER]
+jobs=2
+
+ignore=venv,migrations,static,templates,requirements,reports,package,node_modules
+# CODES IGNORED
+# C     : Convention
+# R     : Refactor
+# W0511 : TODOs in the code
+# W0703 : Catching too general exception Exception
+disable=R,C,I,W0703,W0511
+init-hook="import sys, os;sys.path.append(os.path.abspath('.'))"
+load-plugins=pylint_django
+
+[TYPECHECK]
+generated-members=objects,id,get,save,filter,delete,order_by,all,refresh_from_db

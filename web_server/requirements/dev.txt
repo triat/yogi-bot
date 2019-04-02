@@ -1,0 +1,5 @@
+-r prod.txt
+flake8
+pylint
+pylint-django
+coverage
