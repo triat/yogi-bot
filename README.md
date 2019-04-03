@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/triat/yogi-bot.svg?branch=master)](https://travis-ci.com/triat/yogi-bot)
 # Yogi the bot {•̃_•̃}
 Yogi the bot is meant to be the tool that allows you to organize your CS:GO tournament in a LAN and kill the myth of not having a CS:GO LAN without issues.
 
