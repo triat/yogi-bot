@@ -9,6 +9,8 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+.mypy_cache/
+.pytest_cache/
 
 # Used by dotenv library to load environment variables.
 # .env

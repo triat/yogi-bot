@@ -1,7 +1,7 @@
 [MASTER]
 jobs=2
 
-ignore=venv,migrations,static,templates,requirements,reports,package,node_modules
+ignore=venv,migrations,static,templates,requirements,reports,package,node_modules,settings
 # CODES IGNORED
 # C     : Convention
 # R     : Refactor

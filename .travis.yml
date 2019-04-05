@@ -8,6 +8,6 @@ install:
   - pip install -r requirements/dev.txt
 # command to run tests
 script:
-  - pytest
+  - pytest --ds=main.settings.travis
 before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
+  - psql -c 'create database testing_db;' -U postgres
