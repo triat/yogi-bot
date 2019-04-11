@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="12.1918mm" height="12.1918mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1219 1219"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="673" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Righteous">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="&gt;" horiz-adv-x="477"><path d="M48.8364 582.013l104.993 99.1535 294.499 -306.177 -301.316 -283.156 -97.1698 108.345 199.145 180.65 -200.151 201.185z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Righteous";src:url("#FontID0") format(svg)}
+    .fil2 {fill:#56C3F1}
+    .fil0 {fill:#E4E5E9}
+    .fil3 {fill:#A42633;fill-rule:nonzero}
+    .fil1 {fill:url(#id0)}
+    .fnt0 {font-weight:normal;font-size:357.93px;font-family:'Righteous'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1219.19" y1="673.9" x2="-0.01" y2="673.9">
+   <stop offset="0" style="stop-opacity:1; stop-color:#242222"/>
+   <stop offset="0.501961" style="stop-opacity:1; stop-color:#5CC1ED"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#242222"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_683267664">
+   <circle class="fil0" cx="610" cy="610" r="610"/>
+   <path class="fil1" d="M610 459c235,0 449,24 603,63 4,29 6,58 6,88 0,79 -15,155 -43,224 -150,34 -349,55 -566,55 -218,0 -417,-21 -567,-55 -28,-69 -43,-145 -43,-224 0,-30 2,-59 6,-88 154,-39 368,-63 604,-63z"/>
+   <g>
+    <text x="256" y="812"  class="fil2 fnt0">&gt;</text>
+    <g transform="matrix(-1 -0 0 1 1572.41 202.654)">
+     <text x="610" y="610"  class="fil2 fnt0">&gt;</text>
+    </g>
+   </g>
+   <path class="fil3" d="M610 353l-187 -324c-66,21 -126,53 -180,93l264 417 84 350c5,0 10,0 15,0l0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0c5,0 10,0 15,0l84 -350 264 -417c-54,-40 -114,-72 -179,-93l-187 324z"/>
+  </g>
+ </g>
+</svg>

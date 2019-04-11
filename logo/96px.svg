@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.1278mm" height="8.1278mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 813 813"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="673" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Righteous">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="&gt;" horiz-adv-x="477"><path d="M48.8224 582.013l105.021 99.1535 294.485 -306.177 -301.316 -283.17 -97.1838 108.331 199.187 180.664 -200.193 201.199z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Righteous";src:url("#FontID0") format(svg)}
+    .fil2 {fill:#56C3F1}
+    .fil0 {fill:#E4E5E9}
+    .fil3 {fill:#A42633;fill-rule:nonzero}
+    .fil1 {fill:url(#id0)}
+    .fnt0 {font-weight:normal;font-size:238.62px;font-family:'Righteous'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="812.79" y1="449.27" x2="-0.01" y2="449.27">
+   <stop offset="0" style="stop-opacity:1; stop-color:#242222"/>
+   <stop offset="0.501961" style="stop-opacity:1; stop-color:#5CC1ED"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#242222"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_789132000">
+   <circle class="fil0" cx="406" cy="406" r="406"/>
+   <path class="fil1" d="M406 306c158,0 300,16 403,42 2,19 4,39 4,58 0,53 -10,104 -29,150 -100,23 -232,37 -378,37 -145,0 -277,-14 -377,-37 -19,-46 -29,-97 -29,-150 0,-19 1,-39 4,-58 103,-26 245,-42 402,-42z"/>
+   <g>
+    <text x="171" y="541"  class="fil2 fnt0">&gt;</text>
+    <g transform="matrix(-1 -0 0 1 1048.27 135.103)">
+     <text x="406" y="406"  class="fil2 fnt0">&gt;</text>
+    </g>
+   </g>
+   <path class="fil3" d="M406 235l-124 -216c-44,14 -84,36 -120,62l176 278 56 234c3,0 7,0 10,0l0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0c3,0 7,0 10,0l55 -234 176 -278c-35,-26 -75,-48 -119,-62l-125 216z"/>
+  </g>
+ </g>
+</svg>
