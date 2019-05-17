@@ -58,3 +58,19 @@ Basically, in a mid/long term, the goal is to have most of the interesting featu
 - Better management of conflict in match scheduling and configuration
 - Export data related to the actual match on a backup server for redundancy
 - Load pending game configuration on an other server in case of server issue
+
+# Local development
+## local CS:GO server
+There is a nice docker image done by @Gonzih that you can find (here: docker-csgo-server)[https://github.com/Gonzih/docker-csgo-server]
+
+To use it with Yogi, you'll need docker first ((how to install)[https://docs.docker.com/install/]), then you need to build an image to have an updated server with the command `docker build -t csgo github.com/Gonzih/docker-csgo-server`
+
+Now you can run the server using the command `docker run --rm --name csgo-server -d -p 27015:27015 -p 27015:27015/udp csgo`
+
+Check that the container is running with the command `docker ps` and you should see something like that:
+```
+CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                                                NAMES
+16f506d3f816        csgo   "./csgo.sh /bin/sh -…"   3 seconds ago       Up 1 second         0.0.0.0:27015->27015/tcp, 0.0.0.0:27015->27015/udp   csgo-server
+```
+To add your own rcon password: `docker exec -t csgo-server bash -c "echo 'rcon_password 1234' >> csgo/csgo/cfg/server.cfg"`
+To get the server config you can use the command `docker exec -t csgo-server cat csgo/csgo/cfg/server.cfg`

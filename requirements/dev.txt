@@ -1,5 +1,6 @@
 -r prod.txt
 flake8
+ipython
 mypy
 pylint
 pylint-django
