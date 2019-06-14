@@ -61,9 +61,9 @@ Basically, in a mid/long term, the goal is to have most of the interesting featu
 
 # Local development
 ## local CS:GO server
-There is a nice docker image done by @Gonzih that you can find (here: docker-csgo-server)[https://github.com/Gonzih/docker-csgo-server]
+There is a nice docker image done by @Gonzih that you can find [here: docker-csgo-server](https://github.com/Gonzih/docker-csgo-server)
 
-To use it with Yogi, you'll need docker first ((how to install)[https://docs.docker.com/install/]), then you need to build an image to have an updated server with the command `docker build -t csgo github.com/Gonzih/docker-csgo-server`
+To use it with Yogi, you'll need docker first ([how to install](https://docs.docker.com/install/)), then you need to build an image to have an updated server with the command `docker build -t csgo github.com/Gonzih/docker-csgo-server`
 
 Now you can run the server using the command `docker run --rm --name csgo-server -d -p 27015:27015 -p 27015:27015/udp csgo`
 
