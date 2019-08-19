@@ -2,4 +2,4 @@ Django~=2.2
 psycopg2~=2.8
 Gunicorn~=19.9
 django-heroku~=0.3
-sentry-sdk~=0.10
+sentry-sdk~=0.11
