@@ -1,6 +1,6 @@
 #!/bin/bash
 # ** does not work out of the box on our jenkins machine
-start=`date +%s`
+start=$(date +%s)
 set -e
 
 shopt -s extglob
@@ -56,7 +56,7 @@ mkdir ${REPORTS}
 set +e
 
 #### PYLINT
-pylint_start=`date +%s`
+pylint_start=$(date +%s)
 ret_code=0
 set -x
 `pylint -j 2 --output-format=parseable --rcfile=.pylintrc ${APPS_NO_TESTS[@]} >> "${REPORTS}/pylint.txt" 2>&1`
@@ -65,11 +65,11 @@ set +x
 if [ $cmd_ret_pylint -ne 0 ]; then
   printf "\x1b[31m[ERROR]\x1b[0m Pylint failed\n"
 fi
-pylint_end=`date +%s`
-ret_code=`expr $ret_code + $cmd_ret_pylint`
+pylint_end=$(date +%s)
+ret_code=$(expr $ret_code + $cmd_ret_pylint)
 
 #### FLAKE8
-flake8_start=`date +%s`
+flake8_start=$(date +%s)
 set -x
 flake8 --config=setup.cfg ${APPS[@]} > ${REPORTS}/flake8.txt 2>&1
 cmd_ret_flake8=$?
@@ -77,11 +77,11 @@ set +x
 if [ $cmd_ret_flake8 -ne 0 ]; then
   printf "\x1b[31m[ERROR]\x1b[0m Flake8 failed\n"
 fi
-flake8_end=`date +%s`
-ret_code=`expr $ret_code + $cmd_ret_flake8`
+flake8_end=$(date +%s)
+ret_code=$(expr $ret_code + $cmd_ret_flake8)
 
 #### MYPY
-mypy_start=`date +%s`
+mypy_start=$(date +%s)
 set -x
 mypy --config-file=setup.cfg ${APPS_NO_TESTS[@]} > ${REPORTS}/mypy.txt 2>&1
 cmd_ret_mypy=$?
@@ -89,11 +89,11 @@ set +x
 if [ $cmd_ret_mypy -ne 0 ]; then
   printf "\x1b[31m[ERROR]\x1b[0m Mypy failed\n"
 fi
-mypy_end=`date +%s`
-ret_code=`expr $ret_code + $cmd_ret_mypy`
+mypy_end=$(date +%s)
+ret_code=$(expr $ret_code + $cmd_ret_mypy)
 
 #### TEST
-test_start=`date +%s`
+test_start=$(date +%s)
 set -x
 coverage run -m pytest > ${REPORTS}/test.txt 2>&1
 cmd_ret_test=$?
@@ -101,10 +101,10 @@ set +x
 if [ $cmd_ret_test -ne 0 ]; then
   printf "\x1b[31m[ERROR]\x1b[0m Test failed\n"
 fi
-test_end=`date +%s`
-ret_code=`expr $ret_code + $cmd_ret_test`
+test_end=$(date +%s)
+ret_code=$(expr $ret_code + $cmd_ret_test)
 
-cov_start=`date +%s`
+cov_start=$(date +%s)
 set -x
 coverage html --rcfile=${REPORTS}/../setup.cfg
 cmd_ret_cov=$?
@@ -112,11 +112,11 @@ set +x
 if [ $cmd_ret_cov -ne 0 ]; then
   printf "\x1b[31m[ERROR]\x1b[0m Coverage failed\n"
 fi
-cov_end=`date +%s`
+cov_end=$(date +%s)
 
 
 set +x
-end=`date +%s`
+end=$(date +%s)
 
 echo ""
 echo ""
