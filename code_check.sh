@@ -106,7 +106,7 @@ ret_code=`expr $ret_code + $cmd_ret_test`
 
 cov_start=`date +%s`
 set -x
-coverage html --rcfile=${REPORTS}/../.coveragerc
+coverage html --rcfile=${REPORTS}/../setup.cfg
 cmd_ret_cov=$?
 set +x
 if [ $cmd_ret_cov -ne 0 ]; then
