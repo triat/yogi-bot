@@ -9,3 +9,4 @@ pytest-cov
 pytest-django
 pytest-flake8
 pytest-mypy
+black
