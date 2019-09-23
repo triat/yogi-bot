@@ -4,5 +4,5 @@ Gunicorn~=19.9
 Pillow-SIMD~=6.0.0.post0
 psycopg2~=2.8
 python-valve~=0.2.1
-sentry-sdk~=0.11
+sentry-sdk~=0.12
 sure~=1.4.11
