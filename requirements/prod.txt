@@ -1,6 +1,8 @@
-Django~=2.2
-psycopg2~=2.8
-Gunicorn~=19.9
 django-heroku~=0.3
-sentry-sdk~=0.11
+Django~=2.2
+Gunicorn~=19.9
 Pillow-SIMD~=6.0.0.post0
+psycopg2~=2.8
+python-valve~=0.2.1
+sentry-sdk~=0.11
+sure~=1.4.11
