@@ -38,4 +38,4 @@ class Match(models.Model):
         verbose_name_plural = _("Matches")
 
     def __str__(self):
-        pass
+        return f"[{self.status}] {self.team_1} vs {self.team_2}"

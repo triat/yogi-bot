@@ -12,4 +12,4 @@ class Team(models.Model):
         verbose_name_plural = _("Teams")
 
     def __str__(self):
-        pass
+        return f"[{self.tag}] {self.name}"

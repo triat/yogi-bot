@@ -11,10 +11,14 @@ class Server(models.Model):
     port = models.IntegerField(blank=True, null=True)
     rcon_password = models.CharField(default=uuid.uuid4, max_length=36)
     running_match = models.OneToOneField(Match, models.SET_NULL, blank=True, null=True)
+    server_password = models.CharField(max_length=24, blank=True, null=True)
 
     class Meta:
         verbose_name = _("Server")
         verbose_name_plural = _("Servers")
 
     def __str__(self):
-        pass
+        text = f"[{self.name}] steam://connect/{self.ip}:{self.port}"
+        if self.server_password:
+            text += f"/{self.server_password}"
+        return text
