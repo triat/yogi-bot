@@ -1,6 +1,6 @@
 django-heroku~=0.3
 Django~=2.2
-Gunicorn~=19.9
+Gunicorn~=20.0
 Pillow-SIMD~=6.0.0.post0
 psycopg2~=2.8
 python-valve~=0.2.1
