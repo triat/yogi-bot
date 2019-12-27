@@ -1,5 +1,6 @@
 -r prod.txt
 black
+factory_boy
 flake8
 ipdb
 ipython
