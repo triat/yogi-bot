@@ -2,7 +2,6 @@
 <img src="logo/logotype.svg" width=50%>
 </h1>
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/860f475eb46e4b3c8ad0f7e99df73cb1)](https://app.codacy.com/app/triat/yogi-bot?utm_source=github.com&utm_medium=referral&utm_content=triat/yogi-bot&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/triat/yogi-bot.svg?branch=master)](https://travis-ci.com/triat/yogi-bot) [![Coverage Status](https://coveralls.io/repos/github/triat/yogi-bot/badge.svg?branch=master)](https://coveralls.io/github/triat/yogi-bot?branch=master)
 # Yogi the bot {•̃_•̃}
 Yogi the bot is meant to be the tool that allows you to organize your CS:GO tournament in a LAN and kill the myth of not having a CS:GO LAN without issues.
