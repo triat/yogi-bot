@@ -1,5 +1,5 @@
 <h1 align=center>
-<img src="logo/logotype.svg" width=50%>
+<img src="yogi_web/static/yogi_web/img/logo/logotype.svglogo/logotype.svg" width=50%>
 </h1>
 
 [![Build Status](https://travis-ci.com/triat/yogi-bot.svg?branch=master)](https://travis-ci.com/triat/yogi-bot) [![Coverage Status](https://coveralls.io/repos/github/triat/yogi-bot/badge.svg?branch=master)](https://coveralls.io/github/triat/yogi-bot?branch=master)

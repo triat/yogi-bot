@@ -1,0 +1,21 @@
+{% load static %}
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="https://github.com/triat/yogi-bot" target="_blank">
+            <img src="{% static 'yogi_web/img/logo/96px.svg' %}" width="30" height="30" alt="{•̃_•̃}">
+        </a>
+        <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="{% url 'yogi_web:home' %}">Home</a>
+            </li>
+            <li class="nav-item">
+                {%  if user.is_authenticated %}
+                <a class="nav-link" href="{% url 'logout' %}?next={% url 'login' %}">Logout</a>
+                {% else %}
+                <a class="nav-link" href="{% url 'login' %}">Login</a>
+                {% endif %}
+            </li>
+        </ul>
+    </div>
+</nav>

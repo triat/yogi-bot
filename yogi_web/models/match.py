@@ -41,7 +41,7 @@ class Match(models.Model):
         verbose_name_plural = _("Matches")
 
     def __str__(self):
-        return f"{self.status} - {self.team_1.name} vs {self.team_2.name}"
+        return f"{self.status} - {self.team_1} vs {self.team_2}"
 
     @property
     def match_config(self) -> dict:

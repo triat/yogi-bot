@@ -5,4 +5,4 @@ from . import views
 
 app_name = "yogi_web"
 
-urlpatterns = [path("", views.return_one, name="one")]
+urlpatterns = [path("", views.home, name="home")]
