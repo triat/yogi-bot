@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-valve = "~=0.2.1"
+Django = "~=3.1"
+
+[dev-packages]
+python-valve = "~=0.2.1"
+factory-boy = "*"
+flake8 = "*"
+ipdb = "*"
+ipython = "*"
+mypy = "*"
+pylint = "*"
+pylint-django = "*"
+pytest-cov = "*"
+pytest-django = "*"
+pytest-flake8 = "*"
+pytest-mypy = "*"
+pytest = ">=3.6"
+Django = "~=3.1"
+black = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
