@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 python-valve = "~=0.2.1"
-Django = "~=3.1"
+Django = "~=3.2"
 
 [dev-packages]
 python-valve = "~=0.2.1"
@@ -21,7 +21,7 @@ pytest-django = "*"
 pytest-flake8 = "*"
 pytest-mypy = "*"
 pytest = ">=3.6"
-Django = "~=3.1"
+Django = "~=3.2"
 black = "*"
 
 [requires]
